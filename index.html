@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="title">Big Time Rush — Back to Big Time</title>
+  <meta name="description" content="Big Time Rush is back. New album 'Back to Big Time' — out December 4. Listen everywhere." />
+  <meta property="og:title" content="Big Time Rush — Back to Big Time" />
+  <meta property="og:description" content="The new album, out December 4. Twelve tracks, one new era." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/album-mockup.jpg" />
+  <meta property="og:image:width" content="1536" />
+  <meta property="og:image:height" content="1024" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="assets/album-mockup.jpg" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230a0a0a'/%3E%3Cpath d='M50 12l9 26 28 2-22 18 8 28-23-17-23 17 8-28-22-18 28-2z' fill='%23ff4a17'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat+Brush&family=Google+Sans+Flex:wght@400..700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <button class="lang-toggle" id="lang-toggle" type="button" aria-pressed="false" aria-label="Cambiar idioma">EN</button>
+        <a href="#album" data-i18n="nav.album">Album</a>
+        <a href="#band" data-i18n="nav.band">Band</a>
+        <a href="#tour" data-i18n="nav.tour">Tour</a>
+        <a href="#listen" data-i18n="nav.listen">Listen</a>
+        <a class="btn btn-primary btn-sm" href="#signup" data-i18n="cta">Get the drop</a>
+      </nav>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú">
+        <span></span><span></span>
+      </button>
+    </div>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span data-i18n="ticker.new">★ New album out now</span>
+        <span data-i18n="ticker.album">Back to Big Time</span>
+        <span data-i18n="ticker.lado">★ Lado A / Lado B</span>
+        <span data-i18n="ticker.era">The new era begins again</span>
+        <span data-i18n="ticker.new">★ New album out now</span>
+        <span data-i18n="ticker.album">Back to Big Time</span>
+        <span data-i18n="ticker.lado">★ Lado A / Lado B</span>
+        <span data-i18n="ticker.era">The new era begins again</span>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero-burst" aria-hidden="true"></div>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="dot"></span><span data-i18n="hero.eyebrow">Lado A · The new album</span></p>
+
+          <h1 class="hero-title">
+            <span class="line line-script">Back to</span>
+            <span class="line">Big Time</span>
+            <span class="line line-rush">Rush</span>
+          </h1>
+
+          <p class="hero-sub" data-i18n="hero.sub">
+            Twelve tracks of chrome-plated pop, cut loud and built for the crowd.
+            The boys are back — and this time it's personal.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#listen">
+              <span data-i18n="hero.cta.listen">Listen now</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="#album"><span data-i18n="hero.cta.tracklist">See the tracklist</span></a>
+          </div>
+
+          <ul class="hero-meta">
+            <li><span data-i18n="hero.meta.tracks"><strong>12</strong> tracks</span></li>
+            <li><span data-i18n="hero.meta.release"><strong>Dec 4</strong> release</span></li>
+            <li><span data-i18n="hero.meta.tour"><strong>’26</strong> world tour</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-art">
+          <div class="disc" aria-hidden="true">
+            <img class="disc-img" src="assets/vinyl-disc.jpg" alt="" width="1000" height="1000" onerror="this.hidden = true" />
+            <div class="disc-rings"></div>
+            <div class="disc-label">
+              <span class="disc-band">Big Time Rush</span>
+              <span class="disc-side">Lado A</span>
+              <span class="disc-title">Back<br>to</span>
+              <span class="disc-big">Big<br>Time</span>
+              <span class="disc-hole"></span>
+            </div>
+          </div>
+
+          <div class="sticker sticker-main">
+            <span data-i18n="sticker.main">New album</span>
+            <em data-i18n="sticker.mainEm">out now!</em>
+          </div>
+
+          <div class="sticker sticker-side">
+            <span data-i18n="sticker.side">★ 2026</span>
+          </div>
+
+          <svg class="star star-a" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 6 62 37 96 40 69 61 79 95 50 75 21 95 31 61 4 40 38 37Z"/></svg>
+          <svg class="star star-b" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 6 62 37 96 40 69 61 79 95 50 75 21 95 31 61 4 40 38 37Z"/></svg>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#album" aria-label="Scroll to the album">
+        <span data-i18n="scroll">Scroll</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v15M6 13l6 6 6-6"/></svg>
+      </a>
+    </section>
+
+    <!-- ============ COUNTDOWN ============ -->
+    <section class="countdown tear" id="countdown" data-date="2026-12-04T00:00:00" aria-label="Cuenta regresiva del álbum">
+      <div class="wrap countdown-inner">
+        <div class="countdown-head">
+          <p class="eyebrow eyebrow-dark" data-i18n="countdown.eyebrow">The new era begins in</p>
+          <p class="countdown-script" data-i18n="countdown.script">Back to Big Time</p>
+        </div>
+
+        <div class="timer" role="timer" aria-live="off">
+          <div class="timer-cell">
+            <span class="timer-num" data-unit="days">00</span>
+            <span class="timer-label" data-i18n="countdown.days">Days</span>
+          </div>
+          <div class="timer-cell">
+            <span class="timer-num" data-unit="hours">00</span>
+            <span class="timer-label" data-i18n="countdown.hours">Hours</span>
+          </div>
+          <div class="timer-cell">
+            <span class="timer-num" data-unit="minutes">00</span>
+            <span class="timer-label" data-i18n="countdown.minutes">Minutes</span>
+          </div>
+          <div class="timer-cell">
+            <span class="timer-num" data-unit="seconds">00</span>
+            <span class="timer-label" data-i18n="countdown.seconds">Seconds</span>
+          </div>
+        </div>
+
+        <p class="countdown-live" data-i18n="countdown.live" hidden>Out now — press play.</p>
+      </div>
+    </section>
+
+    <!-- ============ ALBUM ============ -->
+    <section class="section album" id="album">
+      <div class="wrap album-grid">
+        <div class="album-art reveal">
+          <div class="record" aria-hidden="true">
+            <div class="record-label">BTR<br><span>Lado A</span></div>
+          </div>
+
+          <figure class="sleeve">
+            <img
+              class="sleeve-img"
+              src="assets/cover.jpg"
+              alt="Big Time Rush — Back to Big Time album cover"
+              width="1000"
+              height="1000"
+              loading="lazy"
+              decoding="async"
+              onerror="this.hidden = true"
+            />
+            <div class="sleeve-fallback" aria-hidden="true">
+              <div class="sleeve-top">
+                <div class="sleeve-rings"></div>
+                <div class="sleeve-hub">BTR</div>
+                <svg class="sleeve-star s1" viewBox="0 0 100 100"><path d="M50 6 62 37 96 40 69 61 79 95 50 75 21 95 31 61 4 40 38 37Z"/></svg>
+                <svg class="sleeve-star s2" viewBox="0 0 100 100"><path d="M50 6 62 37 96 40 69 61 79 95 50 75 21 95 31 61 4 40 38 37Z"/></svg>
+                <svg class="sleeve-star s3" viewBox="0 0 100 100"><path d="M50 6 62 37 96 40 69 61 79 95 50 75 21 95 31 61 4 40 38 37Z"/></svg>
+              </div>
+
+              <p class="sleeve-title">Big Time<br>Rush</p>
+
+              <div class="sleeve-photos">
+                <span></span><span></span><span></span><span></span>
+              </div>
+
+              <div class="sleeve-foot">
+                <span>Back To Big Time</span>
+                <span>BTR–026</span>
+              </div>
+            </div>
+          </figure>
+        </div>
+
+        <div class="album-info reveal">
+          <p class="eyebrow"><span class="dot"></span><span data-i18n="album.eyebrow">Lado A · Lado B</span></p>
+          <h2 class="section-title" data-i18n="album.title">The new<br>album</h2>
+          <p class="lede" data-i18n="album.lede">
+            <em>Back to Big Time</em> is the record they were always going to make:
+            big hooks, bigger choruses, and a live band turned all the way up.
+            Pressed on orange vinyl, cut for the front row.
+          </p>
+
+          <dl class="album-facts">
+            <div><dt data-i18n="album.facts.release">Release</dt><dd data-i18n="album.facts.releaseValue">December 4, 2026</dd></div>
+            <div><dt data-i18n="album.facts.formats">Formats</dt><dd data-i18n="album.facts.formatsValue">Vinyl · CD · Digital</dd></div>
+            <div><dt data-i18n="album.facts.label">Label</dt><dd data-i18n="album.facts.labelValue">Big Time Collective</dd></div>
+          </dl>
+
+          <div class="album-cta">
+            <a class="btn btn-primary" href="#listen" data-i18n="album.cta.pre">Pre-save the album</a>
+            <a class="btn btn-ghost" href="#signup" data-i18n="album.cta.join">Join the list</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap tracklist-wrap reveal">
+        <div class="tracklist-head">
+          <h3 class="section-title sm" data-i18n="tracklist.title">Tracklist</h3>
+          <p class="tracklist-note" data-i18n="tracklist.note">Runtime 38:12 · 12 tracks</p>
+        </div>
+
+        <div class="tracklist-grid">
+          <div class="tracklist-col">
+            <p class="side-label" data-i18n="tracklist.sideA">Lado A</p>
+            <ol class="tracklist">
+              <li class="track"><span class="track-num">01</span><span class="track-title">Back to Big Time</span><span class="track-dur">3:24</span></li>
+              <li class="track"><span class="track-num">02</span><span class="track-title">Chrome Hearts</span><span class="track-dur">2:58</span></li>
+              <li class="track"><span class="track-num">03</span><span class="track-title">Anywhere With You</span><span class="track-dur">3:11</span></li>
+              <li class="track"><span class="track-num">04</span><span class="track-title">Static</span><span class="track-dur">2:47</span></li>
+              <li class="track"><span class="track-num">05</span><span class="track-title">Fever Dream</span><span class="track-dur">3:33</span></li>
+              <li class="track"><span class="track-num">06</span><span class="track-title">Lado A <span class="track-tag" data-i18n="tracklist.interlude">interlude</span></span><span class="track-dur">1:12</span></li>
+            </ol>
+          </div>
+
+          <div class="tracklist-col">
+            <p class="side-label" data-i18n="tracklist.sideB">Lado B</p>
+            <ol class="tracklist">
+              <li class="track"><span class="track-num">07</span><span class="track-title">Run It Back</span><span class="track-dur">3:05</span></li>
+              <li class="track"><span class="track-num">08</span><span class="track-title">Sunset Boulevard</span><span class="track-dur">3:19</span></li>
+              <li class="track"><span class="track-num">09</span><span class="track-title">Overexposed</span><span class="track-dur">2:52</span></li>
+              <li class="track"><span class="track-num">10</span><span class="track-title">Slow Motion</span><span class="track-dur">3:41</span></li>
+              <li class="track"><span class="track-num">11</span><span class="track-title">Noise</span><span class="track-dur">2:44</span></li>
+              <li class="track"><span class="track-num">12</span><span class="track-title">The New Era</span><span class="track-dur">4:02</span></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BAND ============ -->
+    <section class="section band" id="band">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow eyebrow-dark"><span class="dot"></span><span data-i18n="band.eyebrow">The four of them</span></p>
+            <h2 class="section-title" data-i18n="band.title">Still the<br>same rush</h2>
+          </div>
+          <p class="section-head-copy" data-i18n="band.copy">
+            Kendall, James, Carlos and Logan — four voices, one ridiculous amount of energy.
+            Twenty years in and they're still the loudest band in the room.
+          </p>
+        </div>
+
+        <!-- Portraits: replace assets/member-*.jpg, or set
+             style="--photo: url('assets/...')" on a .member-photo as a one-off. -->
+        <div class="members">
+          <article class="member reveal">
+            <div class="member-photo" style="--tint: 8deg">
+              <img class="member-img" src="assets/member-kendall.jpg" alt="" width="880" height="1100" loading="lazy" decoding="async" onerror="this.hidden = true" />
+              <span class="member-initial" aria-hidden="true">K</span>
+            </div>
+            <div class="member-body">
+              <h3>Kendall</h3>
+              <p class="member-role" data-i18n="band.member.kendall.role">Vocals · Guitar</p>
+              <p class="member-line" data-i18n="band.member.kendall.line">The one with the plan. Usually a bad one.</p>
+            </div>
+          </article>
+
+          <article class="member reveal">
+            <div class="member-photo" style="--tint: 24deg">
+              <img class="member-img" src="assets/member-james.jpg" alt="" width="880" height="1100" loading="lazy" decoding="async" onerror="this.hidden = true" />
+              <span class="member-initial" aria-hidden="true">J</span>
+            </div>
+            <div class="member-body">
+              <h3>James</h3>
+              <p class="member-role" data-i18n="band.member.james.role">Vocals · Bass</p>
+              <p class="member-line" data-i18n="band.member.james.line">Hair has its own rider. Worth it.</p>
+            </div>
+          </article>
+
+          <article class="member reveal">
+            <div class="member-photo" style="--tint: 340deg">
+              <img class="member-img" src="assets/member-carlos.jpg" alt="" width="880" height="1100" loading="lazy" decoding="async" onerror="this.hidden = true" />
+              <span class="member-initial" aria-hidden="true">C</span>
+            </div>
+            <div class="member-body">
+              <h3>Carlos</h3>
+              <p class="member-role" data-i18n="band.member.carlos.role">Vocals · Drums</p>
+              <p class="member-line" data-i18n="band.member.carlos.line">Will stage-dive into anything. Anything.</p>
+            </div>
+          </article>
+
+          <article class="member reveal">
+            <div class="member-photo" style="--tint: 14deg">
+              <img class="member-img" src="assets/member-logan.jpg" alt="" width="880" height="1100" loading="lazy" decoding="async" onerror="this.hidden = true" />
+              <span class="member-initial" aria-hidden="true">L</span>
+            </div>
+            <div class="member-body">
+              <h3>Logan</h3>
+              <p class="member-role" data-i18n="band.member.logan.role">Vocals · Keys</p>
+              <p class="member-line" data-i18n="band.member.logan.line">Wrote the bridge. The whole bridge.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LISTEN ============ -->
+    <section class="section listen" id="listen">
+      <div class="wrap">
+        <div class="listen-head reveal">
+          <div>
+            <p class="eyebrow eyebrow-dark"><span class="dot"></span><span data-i18n="listen.eyebrow">Everywhere now</span></p>
+            <h2 class="listen-title" data-i18n="listen.title">Listen<br><span>on</span></h2>
+          </div>
+          <p class="listen-script" data-i18n="listen.script">Turn it up.</p>
+        </div>
+
+        <div class="platforms">
+          <a class="platform reveal" href="#">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.2"/><path d="M7.4 9.4c3.1-1 6.7-.6 9.2.9M8 12.3c2.4-.7 5.2-.4 7.2.8M8.7 15.2c1.8-.5 3.9-.3 5.5.6"/></svg>
+            <span class="platform-name" data-i18n="listen.platforms.spotify.name">Spotify</span>
+            <span class="platform-sub" data-i18n="listen.platforms.spotify.sub">Stream</span>
+          </a>
+
+          <a class="platform reveal" href="#">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 17.5V6.8L18 5v10.5"/><circle cx="7.2" cy="18" r="2.3"/><circle cx="15.7" cy="16" r="2.3"/></svg>
+            <span class="platform-name" data-i18n="listen.platforms.apple.name">Apple Music</span>
+            <span class="platform-sub" data-i18n="listen.platforms.apple.sub">Stream</span>
+          </a>
+
+          <a class="platform reveal" href="#">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.6" y="5.4" width="18.8" height="13.2" rx="4.2"/><path class="fill" d="M10.2 9.1l5.3 2.9-5.3 2.9z"/></svg>
+            <span class="platform-name" data-i18n="listen.platforms.youtube.name">YouTube</span>
+            <span class="platform-sub" data-i18n="listen.platforms.youtube.sub">Watch</span>
+          </a>
+
+          <a class="platform reveal" href="#">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 14.5c4.2 4.6 11.3 4.6 15 0"/><path d="M17.8 14.2l2.2.5-.5 2.2"/><path d="M8.2 5.5v9M8.2 5.5l7-1.6v7.2"/></svg>
+            <span class="platform-name" data-i18n="listen.platforms.amazon.name">Amazon Music</span>
+            <span class="platform-sub" data-i18n="listen.platforms.amazon.sub">Stream</span>
+          </a>
+        </div>
+
+        <div class="listen-foot reveal">
+          <p data-i18n="listen.foot">Digital, CD and limited orange vinyl — shipping worldwide.</p>
+          <a class="btn btn-dark" href="#signup" data-i18n="listen.cta.vinyl">Get the vinyl</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TOUR ============ -->
+    <section class="section tour" id="tour">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow"><span class="dot"></span><span data-i18n="tour.eyebrow">On the road</span></p>
+            <h2 class="section-title" data-i18n="tour.title">Live &amp;<br>loud</h2>
+          </div>
+          <p class="section-head-copy" data-i18n="tour.copy">
+            The Back to Big Time tour hits arenas in 2027. Presale opens with the album.
+          </p>
+        </div>
+
+        <ul class="dates">
+          <li class="date-row reveal">
+            <span class="date-day" data-i18n="tour.dateLA">Feb 12</span>
+            <span class="date-city">Los Angeles, CA</span>
+            <span class="date-venue">The Forum</span>
+            <a class="date-link" href="#"><span data-i18n="tour.ticket">Tickets</span> <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg></a>
+          </li>
+          <li class="date-row reveal">
+            <span class="date-day" data-i18n="tour.dateMexico">Feb 20</span>
+            <span class="date-city">Mexico City, MX</span>
+            <span class="date-venue">Auditorio Nacional</span>
+            <a class="date-link" href="#"><span data-i18n="tour.ticket">Tickets</span> <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg></a>
+          </li>
+          <li class="date-row reveal">
+            <span class="date-day" data-i18n="tour.dateNY">Mar 05</span>
+            <span class="date-city">New York, NY</span>
+            <span class="date-venue">Madison Square Garden</span>
+            <span class="date-sold" data-i18n="tour.sold">Sold out</span>
+          </li>
+        </ul>
+
+        <p class="tour-note reveal" data-i18n="tour.note">More dates announced every Friday. <a href="#signup">Get first access →</a></p>
+      </div>
+    </section>
+
+    <!-- ============ SIGNUP ============ -->
+    <section class="section signup" id="signup">
+      <div class="wrap signup-inner">
+        <div class="reveal">
+          <p class="eyebrow eyebrow-dark"><span class="dot"></span><span data-i18n="signup.eyebrow">The mailing list</span></p>
+          <h2 class="section-title" data-i18n="signup.title">Stay in<br>the rush</h2>
+          <p class="signup-copy" data-i18n="signup.copy">
+            Presale codes, tour dates, and the occasional voice note from the studio.
+            No spam — just the good stuff.
+          </p>
+        </div>
+
+        <form class="signup-form reveal" id="signup-form" novalidate>
+          <label class="sr-only" for="email" data-i18n="signup.label">Email address</label>
+          <div class="field-row">
+            <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required />
+            <button class="btn btn-primary" type="submit" data-i18n="signup.cta.submit">Sign me up</button>
+          </div>
+          <p class="form-note" data-i18n="signup.formNote">By signing up you agree to receive emails from Big Time Rush. Unsubscribe anytime.</p>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#album" data-i18n="nav.album">Album</a>
+        <a href="#band" data-i18n="nav.band">Band</a>
+        <a href="#tour" data-i18n="nav.tour">Tour</a>
+        <a href="#listen" data-i18n="nav.listen">Listen</a>
+        <a href="assets/poster.jpg" download data-i18n="footer.poster">Poster ↓</a>
+      </nav>
+
+      <div class="footer-right">
+        <div class="barcode" aria-hidden="true"></div>
+        <p class="footer-code" data-i18n="footer.code">BTR–026 · LADO A</p>
+        <p class="footer-copy" data-i18n="footer.copy">© <span id="year">2026</span> Big Time Rush. Unofficial concept site.</p>
+      </div>
+    </div>
+
+    <div class="footer-marquee" aria-hidden="true">
+      <div class="footer-marquee-track">
+        <span data-i18n="marquee.album">Back to Big Time</span><span>★</span><span data-i18n="marquee.album">Back to Big Time</span><span>★</span>
+        <span data-i18n="marquee.album">Back to Big Time</span><span>★</span><span data-i18n="marquee.album">Back to Big Time</span><span>★</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
